@@ -1,0 +1,16 @@
+//
+//  StockTests.swift
+//  StockTests
+//
+//  Created by Pratham Patel on 02/10/24.
+//
+
+import Testing
+
+struct StockTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}
