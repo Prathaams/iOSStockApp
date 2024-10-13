@@ -42,13 +42,13 @@ https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SYMBOL&in
 4. Build and run the app in Xcode.
 
 
-##Usage
+## Usage
 
 Enter a stock symbol (e.g., AAPL for Apple, TSLA for Tesla) in the search bar and press the search button.
 View the stock’s current price, percentage change, open, high, low, and volume information.
 The data will automatically refresh every 5 minutes.
 
-##Project Structure
+## Project Structure
 
 ContentView.swift: The main view with the search bar and stock cards.
 Stock.swift: Model for representing stock data.
@@ -56,14 +56,14 @@ StockViewModel.swift: Handles the business logic for fetching stock data from th
 StockAPIService.swift: Service responsible for making API requests to Alpha Vantage and handling the response.
 GlassUIExtensions.swift: Custom UI components and extensions for creating the glass-effect UI.
 
-##Requirements
+## Requirements
 
 iOS 14.0+
 Xcode 12.0+
 Swift 5.0+
 Alpha Vantage API Key
 
-##Architecture
+## Architecture
 
 This project follows the MVVM (Model-View-ViewModel) architecture to keep the code modular, clean, and maintainable.
 
@@ -71,13 +71,13 @@ Model: The Stock model represents the stock data fetched from the API.
 ViewModel: The StockViewModel handles all business logic, including API calls and data processing.
 View: The ContentView is responsible for rendering the UI components.
 
-##Future Improvements
+## Future Improvements
 
 Add support for historical data and charting.
 Improve error handling for invalid stock symbols and network failures.
 Add unit tests for ViewModel and API service.
 
-##Acknowledgments
+## Acknowledgments
 
 Stock data provided by Alpha Vantage.
 
